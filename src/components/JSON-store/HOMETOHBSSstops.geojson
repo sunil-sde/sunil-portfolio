@@ -1,0 +1,290 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "01",
+          "name": "HBSS",
+          "category": "addresses"
+        },
+        "geometry": {
+          "coordinates": [
+            76.99690833930305,
+            28.408054828375654
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "02",
+          "name": "Tailwind CSS",
+          "category": "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.0003362523899,
+            28.42446620028977
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "03",
+          "name": "Ant Design",
+          "category": "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.02063456171118,
+            28.4478419060885
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "04",
+          "name": "Material-UI (MUI)",
+          "category": "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.03463407747302,
+            28.445567973471796
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "05",
+          "name": "ReactJS",
+          "category": "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.09465923991729,
+            28.505223458080607
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "06",
+          "name": "Shadcn/UI",
+          "category": "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.10565940842974,
+            28.53267072322636
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "07",
+          "name": "Next.js",
+          "category": "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.11905814755875,
+            28.544046907755856
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "08",
+          "name": "Leaflet.js",
+          "category": "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.13149836343246,
+            28.552817506250662
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "09",
+          "name": "Node.js",
+          "category": "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.13476636725284,
+            28.570644267473924
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "10",
+          "name": "PL/SQL",
+          "category": "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.14698903560111,
+            28.58637060946687
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "11",
+          "name": "Texitor: A User-Friendly Persistent Notepad",
+          "category": "projects"
+        },
+        "geometry": {
+          "coordinates": [
+            77.1664299258868,
+            28.59440342163728
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "12",
+          "name": "Chrome Extension: YouTube Word Search",
+          "category": "projects"
+        },
+        "geometry": {
+          "coordinates": [
+            77.15624894230751,
+            28.603830223560834
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "13",
+          "name": "NPM Library: scrollbar-slider",
+          "category": "projects"
+        },
+        "geometry": {
+          "coordinates": [
+            77.143755551754,
+            28.605876693324007
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "14",
+          "name": "Reports Dashboard",
+          "category": "experience"
+        },
+        "geometry": {
+          "coordinates": [
+            77.13657787056547,
+            28.620767199672613
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "15",
+          "name": "Trip Planning Web Application",
+          "category": "experience"
+        },
+        "geometry": {
+          "coordinates": [
+            77.1239822055606,
+            28.65325031107845
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "16",
+          "name": "Vehicle Tracking System (VTS)",
+          "category": "experience"
+        },
+        "geometry": {
+          "coordinates": [
+            77.12956268630654,
+            28.662134127710075
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "17",
+          "name": "GSE UI(Global Scheduling Engine UI)",
+          "category": "experience"
+        },
+        "geometry": {
+          "coordinates": [
+            77.13982475922859,
+            28.673608308081697
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "18",
+          "name": "Trip Reconciliation",
+          "category": "experience"
+        },
+        "geometry": {
+          "coordinates": [
+            77.0946024600023,
+            28.67965153066379
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "19",
+          "name": "Home",
+          "category": "addresses"
+        },
+        "geometry": {
+          "coordinates": [
+            77.06576935788576,
+            28.703366573406882
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }

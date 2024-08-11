@@ -1,0 +1,1029 @@
+{
+    "name": "Sunil",
+    "title": "Software Development Engineer",
+    "other_titles": "Software Developer, Frontend Developer, Backend Developer, Full Stack Developer",
+    "location": "Your Location",
+    "email": "sunilkumarsk20198@gmail.com",
+    "phone": "+91 8010416604",
+    "website": "https://yourwebsite.com",
+    "summary": "Sunil is a highly skilled Software Development Engineer (SDE) known for crafting innovative software solutions. With expertise in Frontend(HTML, CSS, JS, ReactJS, NextJS) and Backend technologies(NodeJS, Microservices), He excels in delivering high-quality applications that meet user needs and drive business success.",
+    "addresses": [
+      {
+        "type": "address",
+        "name": "Home",
+        "address_line_1": "A-135, Hari Enclave Phase 2",
+        "address_line_2": "Kirari Suleman Nagar",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zip": "110086",
+        "country": "India",
+        "landmark": "Jyoti Public School",
+        "contact": "sunilkumarsk20198@gmail.com",
+        "overview":"Welcome to our lovely home located in the heart of India, Delhi, a serene neighborhood known for its friendly community and beautiful parks.",
+        "backgroundImage": "transparent url(/static/addresses/home/my-home.jpg) 0px 0px / 100% 100% no-repeat"
+      },
+      {
+        "type": "address",
+        "name": "HBSS",
+        "address_line_1": "456 Corporate Ave",
+        "address_line_2": "Suite 300",
+        "city": "Business City",
+        "state": "Business State",
+        "zip": "67890",
+        "country": "Business Country",
+        "backgroundImage": "transparent url(/static/addresses/hbss/hbss-entry-road.jpg) 0px 0px / 100% 100% no-repeat"
+      }
+    ],
+    "skills": [
+      {
+        "type": "skill",
+        "name": "PL/SQL",
+        "icon": " background: transparent url(/static/skills/PL.png) -7px -7px / 115% 115% no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/plsqlbg.png) 0px -5px / 100% 105% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -24px no-repeat ",
+        "description": "PL/SQL (Procedural Language/Structured Query Language) is an extension of SQL used for writing procedural code in the Oracle database. It provides the ability to create stored procedures, functions, triggers, and packages, allowing for the development of complex and powerful database-driven applications.",
+        "relevantProjects": [
+          {
+            "name": "Project X",
+            "description": "Implemented stored procedures and triggers in PL/SQL to automate data processing tasks and enforce business rules within an enterprise application.",
+            "link": "#"
+          },
+          {
+            "name": "Project Y",
+            "description": "Developed custom functions and packages in PL/SQL to optimize database performance and improve data retrieval efficiency in a large-scale data warehouse.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "SQL",
+          "Oracle Database"
+        ],
+        "experience": {
+          "years": 3,
+          "details": "Over 3 years of experience working with PL/SQL in Oracle database environments. Proficient in writing and optimizing stored procedures, functions, and packages for efficient data management and application development."
+        },
+        "trainingOrCertifications": [
+          "PL/SQL Tutorial: w3schools.blog/plsql-tutorial"
+        ],
+        "examplesOrSamples": "-- Example of a PL/SQL stored procedure\nCREATE OR REPLACE PROCEDURE calculate_salary (emp_id IN NUMBER) AS\n  emp_salary NUMBER;\nBEGIN\n  SELECT salary INTO emp_salary FROM employees WHERE employee_id = emp_id;\n  -- Perform salary calculation logic\n  -- Update employee record with new salary\nEND;",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Robert Smith",
+            "position": "Senior Database Administrator",
+            "quote": "John's expertise in PL/SQL has been invaluable to our team. His ability to write efficient and maintainable stored procedures and triggers has greatly enhanced our database performance and application reliability."
+          }
+        ],
+        "continuousLearning": "Continuously exploring new features and best practices in PL/SQL development to stay updated with the latest advancements in database programming and optimization."
+      },      
+      {
+        "type": "skill",
+        "name": "Node.js",
+        "icon": " background: transparent url(/static/skills/skills-icons.png) -8px -105px / 300px 200px no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/nodejsbg.png) 0px -5px / 100% 105% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -9px no-repeat ",
+        "description": "Node.js is a runtime environment that allows developers to run JavaScript code server-side. It is built on the V8 JavaScript engine and provides a non-blocking, event-driven architecture, making it ideal for building scalable and high-performance network applications.",
+        "relevantProjects": [
+          {
+            "name": "Project X",
+            "description": "Developed a RESTful API using Node.js and Express.js, providing data access and manipulation for a web application.",
+            "link": "#"
+          },
+          {
+            "name": "Project Y",
+            "description": "Built a real-time chat application with Node.js and Socket.IO, enabling users to communicate instantly with each other.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "JavaScript",
+          "Express.js",
+          "npm"
+        ],
+        "experience": {
+          "years": 3,
+          "details": "Over 3 years of experience working with Node.js in various web development projects. Proficient in building backend services, RESTful APIs, and real-time applications using Node.js ecosystem."
+        },
+        "trainingOrCertifications": [
+          "Node.js Documentation",
+          "Youtube Courses"
+        ],
+        "examplesOrSamples": "// Example of using Express.js to create a simple server\nconst express = require('express');\n\nconst app = express();\n\napp.get('/', (req, res) => {\n  res.send('Hello, Express.js!');\n});\n\napp.listen(3000, () => {\n  console.log('Server running at http://localhost:3000/');\n});",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Alice Johnson",
+            "position": "Senior Developer",
+            "quote": "John's expertise in Node.js has been instrumental in our project's success. His ability to build scalable and efficient backend services has significantly improved our application's performance and reliability."
+          }
+        ],
+        "continuousLearning": "Continuously exploring new features and best practices in Node.js ecosystem to stay updated with the latest trends and advancements in server-side development."
+      },      
+      {
+        "type": "skill",
+        "name": "Leaflet.js",
+        "icon": " background: transparent url(/static/skills/leafletjslogo.jpg) 0px 0px / 100% 100% no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/leafletjsbg.png) 0px 0px / 100% 100% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -42px no-repeat ",
+        "description": "Leaflet.js is an open-source JavaScript library for interactive maps. It provides a lightweight and versatile solution for integrating maps into web applications, with support for various map providers, markers, layers, and interactions.",
+        "relevantProjects": [
+          {
+            "name": "Project X",
+            "description": "Implemented Leaflet.js for displaying interactive maps on a tourism website, allowing users to explore destinations and points of interest.",
+            "link": "#"
+          },
+          {
+            "name": "Project Y",
+            "description": "Utilized Leaflet.js for visualizing geographical data on a real estate platform, enabling users to search for properties and view nearby amenities.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ],
+        "experience": {
+          "years": 2,
+          "details": "Over 2 years of experience working with Leaflet.js in various web development projects. Proficient in integrating Leaflet.js with custom data sources and enhancing maps with additional features."
+        },
+        "trainingOrCertifications": [
+          "Leaflet.js Documentation"
+        ],
+        "examplesOrSamples": "// Example of using Leaflet.js to create a map\nimport L from 'leaflet';\nimport 'leaflet/dist/leaflet.css';\n\nconst myMap = L.map('map').setView([51.505, -0.09], 13);\n\nL.tileLayer('https://{s}.tile.openstreetmap.org\n/{z}/{x}/{y}.png', {\n  attribution: '© OpenStreetMap contributors'\n}).addTo(myMap);",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Daniel Miller",
+            "position": "Lead Developer",
+            "quote": "John's proficiency in Leaflet.js has been crucial to our projects involving map integration. His ability to work with complex geographical data and customize map interactions has greatly improved our user experience."
+          }
+        ],
+        "continuousLearning": "Continuously exploring new features and updates in Leaflet.js to leverage its capabilities for building rich and interactive map-based applications."
+      },      
+      {
+        "type": "skill",
+        "name": "Next.js",
+        "icon": " background: transparent url(/static/skills/nextjslogo.png) -15px 0px / 135% 100% no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/nextjsbg.webp) 0px 0px / 100% 100% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -74px no-repeat ",
+        "description": "Next.js is a React framework that enables server-side rendering (SSR), static site generation (SSG), and other advanced features to build modern web applications. It provides built-in support for routing, data fetching, and code splitting, making it easy to create fast, SEO-friendly, and scalable applications.",
+        "relevantProjects": [
+          {
+            "name": "Project X",
+            "description": "Developed a blog website using Next.js, implementing server-side rendering for improved SEO and performance. Integrated with a headless CMS for content management and deployed on a cloud platform.",
+            "link": "#"
+          },
+          {
+            "name": "Project Y",
+            "description": "Built an e-commerce platform with Next.js, leveraging static site generation to pre-render product pages and optimize loading speed. Integrated with a backend API for dynamic data fetching and management.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "React",
+          "Node.js",
+          "CSS",
+          "HTML"
+        ],
+        "experience": {
+          "years": 2,
+          "details": "Over 2 years of experience working with Next.js in various web development projects. Proficient in leveraging Next.js features such as SSR, SSG, dynamic routing, and API routes to build high-performance and SEO-friendly applications."
+        },
+        "trainingOrCertifications": [
+          "Next.js Documentation"
+        ],
+        "examplesOrSamples": "// Example of a Next.js page component\nimport React from 'react';\n\nconst MyPage = () => {\n  return (\n    <div>\n      <h1>Hello, Next.js!</h1>\n      <p>This is a sample Next.js page component.</p>\n    </div>\n  );\n};\n\nexport default MyPage;",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "David Smith",
+            "position": "Lead Next.js Developer",
+            "quote": "Alice's expertise in Next.js has been invaluable to our team. Her ability to leverage Next.js features and optimize performance has resulted in the successful delivery of several projects."
+          }
+        ],
+        "continuousLearning": "Continuously exploring advanced Next.js techniques and best practices to further enhance efficiency, scalability, and performance in web applications."
+      },  
+      {
+        "type": "skill",
+        "name": "Shadcn/UI",
+        "icon": " background: transparent url(/static/skills/shadcnlogo.png) 0px 0px / 100% 100% no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/shadcnuibg.png) 0px 0px / 100% 100% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -74px no-repeat ",
+        "description": "A collection of beautifully designed components that can be easily copied and pasted into your Next.js apps. These components are accessible, customizable, and open source, providing flexibility and freedom in building UIs tailored to your project needs.",
+        "relevantProjects": [
+          {
+            "name": "Project X",
+            "description": "Integrated custom components from the collection into an e-commerce website, enhancing user experience and streamlining development.",
+            "link": "#"
+          },
+          {
+            "name": "Project Y",
+            "description": "Utilized reusable components for a blog platform, speeding up development time and ensuring consistency in design.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "React", "Next.js"
+        ],
+        "experience": {
+          "years": 2,
+          "details": "Over 2 years of experience using custom reusable components in various Next.js projects. Proficient in integrating and customizing components to meet specific project requirements."
+        },
+        "trainingOrCertifications": [
+          "Official Documentation",
+          "Online Tutorials"
+        ],
+        "examplesOrSamples": "// Example of using a custom reusable component\nimport React from 'react';\n\nconst MyComponent = () => {\n  return (\n    <div>\n      {/* Paste your custom component code here */}\n    </div>\n  );\n};\n\nexport default MyComponent;",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Emma Brown",
+            "position": "Lead Developer",
+            "quote": "John's expertise in using custom reusable components has been invaluable to our team. His ability to quickly integrate and customize components has accelerated our development process and improved overall project quality."
+          }
+        ],
+        "continuousLearning": "Continuously exploring new design patterns and best practices to enhance the usability and versatility of custom reusable components in Next.js applications."
+      },          
+      {
+        "type": "skill",
+        "name": "ReactJS",
+        "icon": " background: transparent url(/static/skills/skills-icons.png) -173px -231px / 500px 350px no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/reactjsbg.png) -60px 0px / 130% 100% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -9px no-repeat ",
+        "description": "ReactJS is a JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components and manage the state of the application efficiently. React follows a component-based architecture, enabling the development of complex and interactive web applications with ease.",
+        "relevantProjects": [
+          {
+            "name": "Project X",
+            "description": "Developed a single-page application for a social networking platform using ReactJS, incorporating features such as user authentication, real-time updates, and interactive feeds.",
+            "link": "#"
+          },
+          {
+            "name": "Project Y",
+            "description": "Implemented a responsive e-commerce website using ReactJS, integrating with a backend API to fetch product data and manage user interactions.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ],
+        "experience": {
+          "years": 3,
+          "details": "Over 3 years of experience working with ReactJS in various web development projects. Proficient in building reusable components, managing state and props, and integrating with external APIs."
+        },
+        "trainingOrCertifications": [
+          "React Documentation",
+          "Youtube tutorials"
+        ],
+        "examplesOrSamples": "// Example of a React functional component\nimport React from 'react';\n\nconst MyComponent = () => {\n  return (\n    <div>\n      <h1>Hello, React!</h1>\n      <p>This is a sample React component.</p>\n    </div>\n  );\n};\n\nexport default MyComponent;",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Alice Johnson",
+            "position": "Senior React Developer",
+            "quote": "John's proficiency in ReactJS is commendable. His ability to design and implement complex UI components with React has significantly contributed to the success of our projects."
+          }
+        ],
+        "continuousLearning": "Staying updated with the latest ReactJS features and best practices to deliver cutting-edge solutions and optimize performance in web applications."
+      },
+      {
+        "type": "skill",
+        "name": "Material-UI (MUI)",
+        "icon": " background: transparent url(/static/skills/muilogo.png) 0px 0px / 100% 100% no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/muibg.png) -20px -3px / 115% 115% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -24px no-repeat ",
+        "description": "Material-UI, also known as MUI, is a popular React UI framework based on Google's Material Design guidelines. It provides a set of pre-designed components and styles for building modern, responsive, and visually appealing user interfaces.",
+        "relevantProjects": [
+          {
+            "name": "Project X",
+            "description": "Developed a dashboard application using Material-UI, leveraging its rich set of components for data visualization and user interaction. Implemented responsive design principles for optimal viewing across devices.",
+            "link": "#"
+          },
+          {
+            "name": "Project Y",
+            "description": "Built a portfolio website with Material-UI, utilizing its grid system and typography styles to create a professional and visually appealing layout. Integrated with third-party APIs for content aggregation.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "React",
+          "CSS",
+          "JavaScript"
+        ],
+        "experience": {
+          "years": 3,
+          "details": "Over 3 years of experience working with Material-UI in various web development projects. Proficient in customizing and extending Material-UI components to meet specific design requirements and branding guidelines."
+        },
+        "trainingOrCertifications": [
+          "Material-UI Documentation"
+        ],
+        "examplesOrSamples": "// Example of using a Material-UI button component\nimport React from 'react';\nimport Button from '@mui/material/Button';\n\nconst MyComponent = () => {\n  return (\n    <div>\n      <Button variant='contained' color='primary'>Click me</Button>\n    </div>\n  );\n};\n\nexport default MyComponent;",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Emily Johnson",
+            "position": "Senior UI Developer",
+            "quote": "David's expertise in Material-UI has been instrumental in our project's success. His proficiency in leveraging Material-UI components and theming capabilities has enabled us to deliver polished and consistent user interfaces."
+          }
+        ],
+        "continuousLearning": "Continuously exploring new features and updates in Material-UI to stay updated with the latest design trends and best practices in UI development."
+      },
+      {
+        "type": "skill",
+        "name": "Ant Design",
+        "icon": " background: transparent url(/static/skills/antdlogo.png) -4px -4px / 110% 110% no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/antdbg.png) -40px -3px / 125% 115% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -42px no-repeat ",
+        "description": "Ant Design is a popular React UI library developed by Ant Group. It provides a comprehensive set of components and design guidelines for building enterprise-level web applications with efficiency and consistency.",
+        "relevantProjects": [
+          {
+            "name": "Project X",
+            "description": "Implemented a data management system using Ant Design, leveraging its table, form, and modal components for CRUD operations. Customized the design and layout to align with the project's branding.",
+            "link": "#"
+          },
+          {
+            "name": "Project Y",
+            "description": "Developed a customer relationship management (CRM) application with Ant Design, incorporating its advanced charting and data visualization components. Ensured accessibility and responsiveness for diverse user groups.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "React",
+          "CSS",
+          "JavaScript"
+        ],
+        "experience": {
+          "years": 2,
+          "details": "Over 2 years of experience working with Ant Design in various web development projects. Skilled in utilizing Ant Design components and layout systems to streamline UI development and improve user experience."
+        },
+        "trainingOrCertifications": [
+          "Ant Design Documentation"
+        ],
+        "examplesOrSamples": "// Example of using an Ant Design button component\nimport React from 'react';\nimport { Button } from 'antd';\n\nconst MyComponent = () => {\n  return (\n    <div>\n      <Button type='primary'>Click me</Button>\n    </div>\n  );\n};\n\nexport default MyComponent;",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Michael Smith",
+            "position": "Lead UI Designer",
+            "quote": "Emily's expertise in Ant Design has been invaluable to our team. Her proficiency in utilizing Ant Design components and design principles has enabled us to deliver visually stunning and highly functional user interfaces."
+          }
+        ],
+        "continuousLearning": "Continuously exploring new features and updates in Ant Design to leverage its capabilities for designing scalable and maintainable UI components in React applications."
+      },            
+      {
+        "type": "skill",
+        "name": "Tailwind CSS",
+        "icon": " background: transparent url(/static/skills/tailwindcsslogo.png) 0px 0px / 100% 100% no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/tailwindcssbg.png) -60px -45px / 130% 130% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -42px no-repeat ",
+        "description": "Tailwind CSS is a utility-first CSS framework that allows you to build custom designs without having to leave your HTML. It provides a wide range of pre-designed utility classes that you can apply directly to your HTML elements, enabling rapid development and customization of responsive and accessible user interfaces.",
+        "relevantProjects": [
+          {
+            "name": "Project X",
+            "description": "Developed a modern website for an e-commerce platform using Tailwind CSS, achieving a visually appealing and responsive design across various devices.",
+            "link": "#"
+          },
+          {
+            "name": "Project Y",
+            "description": "Implemented a dashboard interface for a data visualization tool using Tailwind CSS, ensuring consistency and scalability in design elements.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "experience": {
+          "years": 2,
+          "details": "Over 2 years of experience working with Tailwind CSS in various web development projects. Proficient in leveraging Tailwind CSS utility classes to streamline the styling process and achieve desired design outcomes."
+        },
+        "trainingOrCertifications": [
+          "Tailwind CSS Official Documentation",
+          "Youtube tutorials"
+        ],
+        "examplesOrSamples": "// Example of using Tailwind CSS utility classes to create a button\n<button class='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>Button</button>",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "John Smith",
+            "position": "Lead Frontend Developer",
+            "quote": "Jane's expertise in Tailwind CSS has been invaluable to our team. Her ability to harness the power of Tailwind's utility classes has significantly sped up our development process and improved the maintainability of our codebase."
+          }
+        ],
+        "continuousLearning": "Continuously exploring advanced techniques and best practices in Tailwind CSS to further enhance efficiency and productivity in frontend development projects."
+      },      
+      {
+        "type": "skill",
+        "name": "JavaScript",
+        "icon": " background: transparent url(/static/skills/skills-icons.png) -200px -12px / 300px 200px no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/jsbackground.jpg) 0px 0px / 100% 100% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -9px no-repeat ",
+        "description": "JavaScript is a versatile programming language commonly used for web development. It enables dynamic and interactive features on websites, such as form validation, DOM manipulation, and asynchronous behavior with AJAX.",
+        "relevantProjects": [
+          {
+            "name": "Project X",
+            "description": "Developed a responsive web application using Node.js and Express.js, leveraging JavaScript for both server-side and client-side functionality.",
+            "link": "#"
+          },
+          {
+            "name": "Project Y",
+            "description": "Implemented a real-time chat feature using Socket.IO and JavaScript, enhancing user engagement and interactivity.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "JavaScript",
+          "Node.js",
+          "Express.js",
+          "React.js"
+        ],
+        "experience": {
+          "years": 5,
+          "details": "Over 5 years of experience working with JavaScript in various web development projects. Led the implementation of front-end and as well as backend features and optimizations, contributing to improved user experiences and performance."
+        },
+        "trainingOrCertifications": [
+          "Javascript30: 30 day vanilla JS coding challenge."
+        ],
+        "examplesOrSamples": "// Example of a JavaScript function for calculating factorial\nfunction factorial(n) {\n \t if (n === 0 || n === 1) {\n  \t\t  return 1;\n  \t } else {\n  \t\t  return n * factorial(n - 1);\n  \t\t}\n}",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Jane Doe",
+            "position": "Senior Developer",
+            "quote": "John's proficiency in JavaScript is exceptional. He consistently delivers high-quality code and demonstrates a deep understanding of the language's concepts and best practices."
+          }
+        ],
+        "continuousLearning": "Continuously exploring new JavaScript frameworks and libraries to stay abreast of the latest trends and advancements in front-end development."
+      },
+      {
+        "type": "skill",
+        "name": "HTML",
+        "icon": " background: transparent url(/static/skills/skills-icons.png) -15px -12px / 300px 200px no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/htmlbackground.jpg) 0px 0px / 100% 100% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -24px no-repeat ",
+        "description": "HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications. It provides the structure and layout for content on the World Wide Web.",
+        "relevantProjects": [
+          {
+            "name": "Project A",
+            "description": "Developed a responsive website layout using HTML5 and CSS3, ensuring compatibility across various devices and browsers.",
+            "link": "#"
+          },
+          {
+            "name": "Project B",
+            "description": "Designed and implemented a landing page for a product launch, focusing on user-friendly navigation and accessibility.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "HTML",
+          "HTML5"
+        ],
+        "experience": {
+          "years": 5,
+          "details": "Over 5 years of experience creating and maintaining web pages and applications using HTML. Proficient in writing clean, semantic HTML code."
+        },
+        "trainingOrCertifications": [
+          "Udemy: HTML5 and CSS3 Fundamentals",
+          "LinkedIn Learning: Web Development Foundations"
+        ],
+        "examplesOrSamples": "<!-- Example of an HTML5 structure -->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Document</title>\n</head>\n<body>\n    <h1>Welcome to My Website</h1>\n  </body>\n</html>",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "John Smith",
+            "position": "Frontend Developer",
+            "quote": "Sarah's expertise in HTML is outstanding. She has a keen eye for detail and consistently delivers high-quality code."
+          }
+        ],
+        "continuousLearning": "Keeping up to date with the latest HTML standards and best practices to ensure compliance and efficiency in web development."
+      },
+      {
+        "type": "skill",
+        "name": "CSS",
+        "icon": " background: transparent url(/static/skills/skills-icons.png) -106px -12px / 300px 200px no-repeat ",
+        "backgroundImage": "transparent url(/static/skills/cssbackground.jpg) -12px -5px / 107% 105% no-repeat",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -24px no-repeat ",
+        "description": "CSS (Cascading Style Sheets) is a stylesheet language used for describing the presentation of a document written in HTML. It controls the layout, formatting, and appearance of web pages.",
+        "relevantProjects": [
+          {
+            "name": "Project C",
+            "description": "Styled a responsive website layout using modern CSS techniques such as Flexbox and Grid layout.",
+            "link": "#"
+          },
+          {
+            "name": "Project D",
+            "description": "Implemented a custom design system for a web application, ensuring consistency and brand adherence across all components.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "CSS",
+          "CSS3",
+          "Sass",
+          "LESS",
+          "Bootstrap",
+          "Tailwind CSS"
+        ],
+        "experience": {
+          "years": 5,
+          "details": "Over 5 years of experience designing and implementing CSS stylesheets for web pages and applications. Proficient in creating responsive layouts and optimizing performance."
+        },
+        "trainingOrCertifications": [
+          "Udemy: CSS - The Complete Guide (incl. Flexbox, Grid & Sass)",
+          "LinkedIn Learning: Advanced CSS and Sass: Flexbox, Grid, Animations and More!"
+        ],
+        "examplesOrSamples": "/* Example of CSS styles for a navigation bar */\n.navbar {\n  background-color: #333;\n  overflow: hidden;\n}\n\n.navbar a {\n  float: left;\n  display: block;\n  color: #f2f2f2;\n  text-align: center;\n  padding: 14px 16px;\n  text-decoration: none;\n}\n\n.navbar a:hover {\n  background-color: #ddd;\n  color: black;\n}",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Emily Johnson",
+            "position": "UI/UX Designer",
+            "quote": "James has an excellent eye for design and a deep understanding of CSS. His attention to detail and ability to create visually appealing layouts make him a valuable asset to any project."
+          }
+        ],
+        "continuousLearning": "Staying up to date with the latest CSS standards, techniques, and frameworks to enhance design capabilities and improve user experiences."
+      },
+      {
+        "type": "skill",
+        "name": "C/C++",
+        "icon": " background: transparent url(/static/skills/cpp_bg.jpg) -70px -48px / 260% 230% no-repeat ",
+        "backgroundImage": " transparent url(/static/skills/cpp_bg.jpg) -83px -41px / 150% 150%  no-repeat ",
+        "proficiencyLevel": "background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -9px no-repeat",
+        "description": "C/C++ are powerful programming languages widely used for system and application software, game development, drivers, client-server applications, and embedded firmware.",
+        "relevantProjects": [
+          {
+            "name": "Project A",
+            "description": "Developed a high-performance game engine using C++ that includes real-time rendering and physics simulation.",
+            "link": "#"
+          },
+          {
+            "name": "Project B",
+            "description": "Built a memory-efficient embedded system application using C for a home automation system.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "C",
+          "C++",
+          "STL",
+          "Boost"
+        ],
+        "experience": {
+          "years": 4,
+          "details": "Over 4 years of experience working with C/C++ in various software development projects, including system programming, game development, and embedded systems."
+        },
+        "trainingOrCertifications": [
+          "Coursera: C++ For C Programmers",
+          "YouTube: Modern C++ Programming"
+        ],
+        "examplesOrSamples": "// Example of a simple C++ program\n#include <iostream>\n\nint main() {\n  std::cout << 'Hello, C++!' << std::endl;\n  return 0;\n}",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Bob Smith",
+            "position": "Lead Engineer",
+            "quote": "John's proficiency in C/C++ is remarkable. His contributions have been crucial in optimizing our application’s performance and reliability."
+          }
+        ],
+        "continuousLearning": "Constantly learning about modern C++ standards and best practices to ensure efficient and high-quality code."
+      },
+      {
+        "type": "skill",
+        "name": "Python",
+        "icon": " background: transparent url(/static/skills/python.png) 15px -29px / 278% 180%  no-repeat ",
+        "backgroundImage": " transparent url(/static/skills/python.png) 6px 0px / 104% 103% no-repeat ",
+        "proficiencyLevel": "background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -9px no-repeat",
+        "description": "Python is a versatile, high-level programming language known for its readability and simplicity. It is widely used for web development, data analysis, artificial intelligence, scientific computing, and more.",
+        "relevantProjects": [
+          {
+            "name": "Project C",
+            "description": "Developed a web application using Django and Python, providing a robust backend and user-friendly interface.",
+            "link": "#"
+          },
+          {
+            "name": "Project D",
+            "description": "Implemented a data analysis pipeline using Python and Pandas, automating data cleaning and visualization tasks.",
+            "link": "#"
+          }
+        ],
+        "technologies": [
+          "Python",
+          "Django",
+          "Flask",
+          "Pandas",
+          "NumPy"
+        ],
+        "experience": {
+          "years": 5,
+          "details": "Over 5 years of experience working with Python in various domains such as web development, data analysis, and machine learning. Proficient in writing clean, maintainable, and efficient Python code."
+        },
+        "trainingOrCertifications": [
+          "Coursera: Python for Everybody",
+          "Udacity: AI Programming with Python"
+        ],
+        "examplesOrSamples": "# Example of a simple Python script\nprint('Hello, Python!')",
+        "endorsementsOrRecommendations": [
+          {
+            "endorser": "Jane Doe",
+            "position": "Data Scientist",
+            "quote": "John's expertise in Python has been invaluable to our team. His ability to quickly understand and solve complex problems has greatly improved our productivity."
+          }
+        ],
+        "continuousLearning": "Regularly exploring new Python libraries and frameworks to stay updated with the latest trends and advancements in software development."
+      }            
+    ],
+    "experience": [
+      {
+        "type": "experience",
+        "title": "Software Development Engineer",
+        "company": "HBSS",
+        "icon": " background: transparent url(/static/experience/dashboard/c-home.png) -170px -70px / 420% 280% no-repeat ",
+        "backgroundImage": "transparent url(/static/experience/dashboard/c-home.png) -420px -150px / 280% 250% no-repeat",
+        "location": "Location",
+        "dates": "July 2021 - current",
+        "achievements": [
+          "Developing frontend and backend wholly",
+          "Making sure each and every report is working for every client currently: RTD and RTAIA by coordinating with team members",
+          "Automated the filters attachement with reports and customized the code for report generation and hence reducing the efforts to add a new report to the application.",
+          "Reducing costs of development by implementing the free solution rather than using paid solutions from market. E.g. Resolved Page Unresponsive while downloading the heavy pdf report",  
+          "Taking care of every release on Staging, Parallel Live and Main Live by coordinating with the deployment team.",
+          "There are some issues in the application still that I will be resolving by coordinating with the deployment team."
+
+        ],
+        "name": "Reports Dashboard",
+        "description": "UI Dashboard for reports which can be visualized in tabular format and graphical visuals.",
+        "technologies_used": ["HTML", "CSS", "JS", "REACT", "NodeJS", "SQL", "DBeaver", "Oracle", "MaterialUI", "Antd", "AmCharts", "AmCharts", "AmCharts"],
+        "imagesDirectory": "/static/experience/dashboard"
+      },
+      {
+        "type": "experience",
+        "title": "Software Engineer Intern",
+        "company": "HBSS",
+        "icon": " background: transparent url(/static/experience/otp/i-otp2-logo.png) -5px -2px / 110% 122% no-repeat ",
+        "backgroundImage": "transparent url(/static/experience/otp/i-otp2-logo.png) 77px 0px / 60% 100% no-repeat",
+        "location": "Location",
+        "dates": "Start Date - End Date",
+        "achievements": [
+          "Led the development and integration of OpenTripPlanner 2 (OTP2) into a custom-built trip planning web application.",
+          "Implemented API endpoints and logic to fetch trip planning information from OTP2 based on user input.",
+          "Designed and developed the frontend of the trip planning web application using React.js.",
+          "Optimized the user experience by providing intuitive controls and visualizing route options.",
+          "Conducted thorough testing to ensure reliability, accuracy, and performance across different scenarios.",
+          "Successfully enhanced the capabilities and usability of the trip planning platform.",
+          "Contributed to HBSS's commitment to delivering innovative solutions for travel planning."
+        ],
+        "name": "Trip Planning Web Application",
+        "description": "During my internship at HBSS, I led the development and integration of OpenTripPlanner 2 (OTP2) into a custom-built trip planning web application. The project aimed to provide users with a seamless experience for planning trips by leveraging OTP2's powerful routing and scheduling capabilities.",
+        "technologies_used": ["OpenTripPlanner 2", "React.js", "JavaScript", "HTML", "CSS"],
+        "imagesDirectory": "/static/experience/otp"
+      }, 
+      {
+        "type": "experience",
+        "title": "Software Development Engineer",
+        "company": "HBSS",
+        "icon": " background: transparent url(/static/experience/vts/hbss-logo.jpg) 0px 5px / 100% 88% no-repeat ",
+        "backgroundImage": "transparent url(/static/experience/vts/hbss-logo.jpg) 44px 0px / 80% 100% no-repeat",
+        "location": "Location",
+        "dates": "July 2021 - current",
+        "achievements": [
+          "Implemented bug fixes and feature enhancements for the Vehicle Tracking System (VTS)",
+          "Collaborated with team members to address and resolve reported issues",
+          "Ensured smooth functionality of the VTS application by identifying and resolving technical issues",
+          "Contributed to the continuous improvement of the VTS application through regular maintenance and updates"
+        ],
+        "name": "Vehicle Tracking System (VTS)",
+        "description": "Software system for tracking vehicles, monitoring their location, and managing related data.",
+        "technologies_used": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "SQL"
+        ],
+        "imagesDirectory": "/static/experience/vts"
+      }, 
+      {
+        "type": "experience",
+        "title": "Software Development Engineer",
+        "company": "HBSS",
+        "icon": " background: transparent url(/static/experience/gse-ui/home.png) 0px 0px / 100% 100% no-repeat ",
+        "backgroundImage": "transparent url(/static/experience/gse-ui/home.png) 0px 0px / 100% 100% no-repeat",
+        "location": "Location",
+        "dates": "July 2021 - current",
+        "achievements": [
+          "Implemented .kml/.jeojson file upload option to show geographic data on map",
+          "Implemented feature to show buffer zone of radius 2km around routes.",
+          "Implemented Resizable Scrollbar slider for segments information in cards",
+          "Implemented login functionality",
+          "Implemented bug fixes and feature enhancements for the GSE UI",
+          "Collaborated with team members to address and resolve reported issues",
+          "Ensured smooth functionality of the VTS application by identifying and resolving technical issues"
+          
+        ],
+        "name": "GSE UI(Global Scheduling Engine UI)",
+        "description": "GSE UI is a User Interface for scheduling engine, which has some to tools to better analize the scheduled trips, like we can assign vehicles to the region which has more trips, that way we can optimize the time, cost, fuel etc for a trip. And this all can be analized on GSE UI map so easily.",
+        "technologies_used": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React"
+        ],
+        "imagesDirectory": "/static/experience/gse-ui"
+      }, 
+      {
+        "type": "experience",
+        "title": "Software Development Engineer",
+        "company": "HBSS",
+        "icon": "background: transparent url(/static/experience/tr/c-home.png) -170px -70px / 420% 280% no-repeat",
+        "backgroundImage": "transparent url(/static/experience/tr/c-home.png) -420px -150px / 280% 250% no-repeat",
+        "location": "Location",
+        "dates": "July 2021 - current",
+        "achievements": [
+          "Set up trip fares for all travel agencies, ensuring accurate fare calculation and reconciliation",
+          "Gathered and analyzed requirements from Solution Engineers (SE) to implement necessary changes",
+          "Developed and maintained all trip reconciliation logic using PL/SQL",
+          "Improved the efficiency and accuracy of trip reconciliation processes through optimized PL/SQL scripts"
+        ],
+        "name": "Trip Reconciliation",
+        "description": "System for setting up and reconciling trip fares for various travel agencies, ensuring accurate fare management and financial reconciliation.",
+        "technologies_used": [
+          "PL/SQL",
+          "Oracle",
+          "SQL"
+        ],
+        "imagesDirectory": "/static/experience/tr"
+      },           
+      {
+        "type": "experience",
+        "title": "Software Engineer Intern",
+        "company": "HBSS",   
+        "icon": " background: transparent url(/static/experience/ebt/cardknox-banner.jpg) -21px -24px / 470% 160% no-repeat ",     
+        "backgroundImage": "transparent url(/static/experience/ebt/cardknox-banner.jpg) 0px 50px / 100% 55% no-repeat",
+        "location": "Location",
+        "dates": "Start Date - End Date",
+        "achievements": [
+          "Developed a user interface (UI) for online payment using EBT Card, facilitating two main features: payment processing and card balance checking.",
+          "Utilized CARDKNOX API for EBT type transactions, ensuring secure and reliable payment processing.",
+          "Implemented intuitive user flows for seamless payment experience, enhancing user satisfaction and usability.",
+          "Designed and integrated features for checking card balance, providing users with real-time access to their account information.",
+          "Contributed to the enhancement of HBSS's payment solutions, catering to diverse payment methods and user needs."
+        ],
+        "name": "UI Development for Online Payment using EBT Card",
+        "description": "During my internship at HBSS, I spearheaded the development of a user interface (UI) for online payment using EBT Card. This project aimed to provide users with a convenient and secure platform for conducting transactions and checking card balances. Leveraging the CARDKNOX API for EBT type transactions, I ensured robust payment processing capabilities while maintaining the highest standards of security. By implementing intuitive user flows and integrating features for card balance checking, I contributed to enhancing the overall payment experience for users. This project reflects HBSS's commitment to delivering innovative and user-friendly payment solutions.",
+        "technologies_used": ["CARDKNOX API", "JavaScript", "HTML", "CSS", "React.js"],
+        "imagesDirectory": "/static/experience/ebt"
+      },            
+      {
+        "type": "experience",
+        "title": "Research Intern",
+        "company": "DTU",
+        "icon": " background: transparent url(/static/experience/sz/iot-devices.png) -63px -63px / 240% 240% no-repeat ",     
+        "backgroundImage": "transparent url(/static/experience/sz/iot-devices.png) -2px 5px / 100% 95% no-repeat",
+        "location": "Delhi, India",
+        "dates": "Mar 2020 - Mar 2021",
+        "achievements": [
+          "Conducted research on Secure and Energy Efficient IoT Devices",
+          "Reviewed various related research papers to gather insights and knowledge",
+          "Developed a hybrid algorithm combining SZ 1.4 compression and ChaCha12-Poly1305 encryption algorithms",
+          "Executed the code on Linux OS for better performance and security",
+          "Led a team of 3 members, coordinating tasks and ensuring effective collaboration"
+        ],
+        "name": "Research Internship on Secure and Energy Efficient IoT Devices",
+        "description": "Focused on developing secure and energy-efficient algorithms for IoT devices, combining compression and encryption techniques to enhance performance and security.",
+        "technologies_used": ["Linux", "C", "C++", "Python", "SZ 1.4", "ChaCha12-Poly1305"],
+        "imagesDirectory": "/static/experience/sz"
+      }      
+    ],
+    "education": [
+      {
+        "type": "education",
+        "name": "DTU",
+        "degree": "B.Tech Computer Engineering",
+        "institution": "Delhi Technological University",
+        "backgroundImage": "transparent url(/static/education/dtu2.png) 0px 0px / 107% 105% no-repeat",
+        "acronym": "DTU",
+        "location": "Bawana Rd, Delhi Technological University, Shahbad Daulatpur Village, Rohini, New Delhi, Delhi, 110042",
+        "dates": "2017 - 2021",
+        "result": "cumulative GPA of 6.87",
+        "rating": "3.5",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -54px no-repeat ",
+        "icon": " background: transparent url(/static/education/dtu/DTU_logo.png) 9px 9px / 80% 80% no-repeat ",
+        "latlng": "28.749913457225247, 77.11747437504238",
+        "imagesDirectory": "/static/education/dtu"
+      },
+      {
+        "type": "education",
+        "name": "RPVV",
+        "degree": "Class XII(CBSE)",
+        "institution": "Rajkiya Pratibha Vikas Vidyalaya",
+        "backgroundImage": "transparent url(/static/education/rpvvbg.png) 0px 0px / 107% 105% no-repeat",
+        "acronym": "RPVV",
+        "location": "Pocket 1, Sector 11, Rohini, New Delhi, Delhi, 110085",
+        "dates": "2016 - 2017",
+        "result": "89.6 %",
+        "rating": "4.5",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -54px no-repeat ",
+        "icon": " background: transparent url(/static/education/rpvv/cbse_logo.png) 9px 9px / 80% 80%  no-repeat ",
+        "latlng": "28.731985412597382, 77.11307369112069",
+        "imagesDirectory": "/static/education/rpvv"
+      },
+      {
+        "type": "education",
+        "name": "RPVV ",
+        "degree": "Class X(CBSE)",
+        "institution": "Rajkiya Pratibha Vikas Vidyalaya",
+        "backgroundImage": "transparent url(/static/education/rpvvbg.png) 0px 0px / 107% 105% no-repeat",
+        "acronym": "RPVV",
+        "location": "Pocket 1, Sector 11, Rohini, New Delhi, Delhi, 110085",
+        "dates": "2015 - 2016",
+        "result": "9.4 CGPA",
+        "rating": "5",
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -9px no-repeat; background-size: 50px 50px ",
+        "icon": " background: transparent url(/static/education/rpvv/cbse_logo.png) 9px 9px / 80% 80%  no-repeat ",
+        "latlng": "28.731985412597382, 77.11307369112069",
+        "imagesDirectory": "/static/education/rpvv"
+      }
+    ],
+    "projects": [
+      {
+        "type": "project",
+        "name": "React Game: Catch the Moving Object",
+        "icon": " background: transparent url(/static/projects/catchme/c-go.png) -35px -22px / 200% 200% no-repeat ",
+        "backgroundImage": "transparent url(/static/projects/catchme/g-gamename.png) -20px 0px / 145% 214% no-repeat",
+        "description": "Embark on an exciting adventure with our React-based game, where every click counts! Developed by Sunil, this engaging game challenges players to test their reflexes and agility as they attempt to catch a moving object within a limited time frame.",
+        "technologies": ["React", "JavaScript", "CSS", "HTML"],
+        "role": "Lead Developer",
+        "responsibilities": ["Game design", "React component development", "Implementation of game logic"],
+        "achievements": ["Implemented dynamic gameplay mechanics", "Ensured seamless integration with React components"],
+        "github": "https://github.com/mjcmd/catchmejsx",
+        "demo": "https://catchme-27de8.web.app/",
+        "category": "Web Development",
+        "year": 2024,
+        "team": "Solo project",
+        "pages": "Game Interface",
+        "view_site": "https://catchme-27de8.web.app/",
+        "npm": "N/A",
+        "key_features": [
+          "Dynamic Gameplay: Experience the thrill of the chase as a single game object moves randomly across the screen at varying speeds.",
+          "Configurable Settings: Customize your gaming experience by adjusting the speed and duration of the game before starting.",
+          "Win or Lose: Test your reflexes and aim to click on the moving object within the specified time limit."
+        ],
+        "why": [
+          "Fun and Challenging: Our React game offers a fun and challenging experience for players of all ages.",
+          "Improves Reflexes: Sharpen your reflexes and hand-eye coordination as you strive to click on the moving object in time.",
+          "Easy to Play, Hard to Master: While the concept is simple, mastering the game requires precision and timing."
+        ],
+        "imagesDirectory": "/static/projects/catchme"
+      },  
+      {
+        "type": "project",
+        "name": "Chrome Extension: YouTube Word Search",
+        "icon": " background: transparent url(/static/projects/utubesearch/yt-logo-100.png) 0px 0px / 100% 100% no-repeat ",
+        "backgroundImage": "transparent url(/static/projects/utubesearch/yt-search-bg.jpg) 0px 0px / 100% 100% no-repeat",
+        "description": "Introducing our Chrome extension: YouTube Word Search! Developed by Sunil, this handy tool enhances your browsing experience by allowing you to seamlessly search for selected words on YouTube with just a right-click.",
+        "technologies": ["JavaScript", "Chrome Extension API"],
+        "role": "Lead Developer",
+        "responsibilities": ["Extension design and development", "Integration of context menu functionality", "Implementation of YouTube search feature"],
+        "achievements": ["Enhanced user browsing experience", "Streamlined access to YouTube search functionality"],
+        "github": "https://github.com/yourusername/youtube-word-search-extension",
+        "demo": "N/A",
+        "category": "Web Development",
+        "year": 2024,
+        "team": "Solo project",
+        "pages": "Context Menu, Extension Popup",
+        "view_site": "N/A",
+        "npm": "N/A",
+        "key_features": [
+          "Seamless Integration: Enjoy effortless access to YouTube search functionality directly from your browser's context menu.",
+          "Enhanced Browsing Experience: Quickly search for selected words on YouTube without leaving your current browsing session.",
+          "User-Friendly Interface: The extension provides a simple and intuitive interface, making it easy for users to perform word searches on YouTube."
+        ],
+        "why": [
+          "Convenience: Our Chrome extension saves you time by eliminating the need to manually copy and paste words into the YouTube search bar.",
+          "Efficiency: With just a right-click, you can instantly search for any selected word on YouTube, allowing you to find relevant content with ease.",
+          "Customization: Tailor your browsing experience by searching for specific words or phrases on YouTube, empowering you to discover content that matters to you."
+        ],
+        "imagesDirectory": "/static/projects/utubesearch"
+      },    
+      {
+        "type": "project",
+        "name": "NPM Library: scrollbar-slider",
+        "icon": " background: transparent url(/static/scrollbar-slider/scrollbar-slider-logo.png) 0px 0px / 100% 100% no-repeat ",
+        "backgroundImage": "transparent url(/static/projects/scrollbarslider/a-npm-upload.png) 0px 0px / 100% 100% no-repeat",
+        "description": "Introducing scrollbar-slider, a customizable React component that provides carousel functionality with a scrollbar to quickly navigate between slides. Developed by Sunil, scrollbar-slider enhances your web applications with a sleek and user-friendly slider feature.",
+        "technologies": ["React", "JavaScript", "README.md", "npm", "webpack"],
+        "role": "Lead Developer",
+        "responsibilities": ["Component design and development", "Integration of carousel and scrollbar functionality", "Optimization for performance and usability"],
+        "achievements": ["Enhanced user experience with dynamic slide navigation", "Improved accessibility with customizable scrollbar"],
+        "github": "https://www.npmjs.com/package/scrollbar-slider",
+        "demo": "N/A",
+        "category": "Web Development",
+        "year": 2024,
+        "team": "Solo project",
+        "pages": "README.md, Example Usage",
+        "view_site": "N/A",
+        "npm": "https://www.npmjs.com/package/scrollbar-slider",
+        "key_features": [
+          "Dynamic Carousel: Seamlessly navigate between slides with carousel functionality.",
+          "Customizable Scrollbar: Quickly scroll through slides using the customizable scrollbar.",
+          "User-Friendly Interface: scrollbar-slider provides an intuitive interface, making it easy for users to interact with the carousel."
+        ],
+        "why": [
+          "Enhanced User Experience: scrollbar-slider enhances user engagement and interaction on web applications.",
+          "Increased Flexibility: Customize the carousel and scrollbar to suit the specific needs and design requirements of your project.",
+          "Simplified Implementation: Easily integrate scrollbar-slider into your React applications to add carousel functionality with minimal effort."
+        ],
+        "imagesDirectory": "/static/projects/scrollbarslider"
+      }, 
+      { 
+        "type": "project",
+        "name": "Texitor: A User-Friendly Persistent Notepad",
+        "icon": " background: transparent url(/static/projects/texitor/f-logo.png) 1px 26px / 100% 40% no-repeat; transform: rotate(45deg) ",
+        "backgroundImage": "transparent url(/static/projects/texitor/a-texitoruibg.png) 0px 0px / 100% 100% no-repeat",
+        "description": "Texitor is a modern and intuitive notepad application designed to streamline your note-taking experience. What sets Texitor apart is its innovative use of the IndexedDB API in JavaScript, allowing for seamless and persistent storage of your notes directly within your browser.",
+        "technologies": ["HTML", "CSS", "Javascript", "IndexedDB"],
+        "role": "Developer",
+        "responsibilities": [
+          "Created user friendly UI in HTML, CSS", 
+          "Implemented all CRUD operations using Javascript and IndexedDB",
+          "Deployed to firebase"
+        ],
+        "achievements": ["Achievement 1", "Achievement 2"],
+        "github": "https://github.com/mjcmd/inotebook",
+        "demo": "https://mytexitor.web.app/",
+        "category": "Web Development",
+        "year": 2023,
+        "team": "Sunil",
+        "pages": "Photo Gallery",
+        "view_site": "https://mytexitor.web.app/",
+        "npm": "NPM package name",
+        "key_features": [
+          "Create Notes Texitor empowers you to quickly jot down your thoughts, ideas, or important information with ease. With just a few clicks, you can create new notes and start capturing your thoughts in real-time.",
+          "Save and Update: Say goodbye to the fear of losing your notes. Texitor leverages the power of IndexedDB to automatically save your notes as you type. You can update your notes effortlessly, and Texitor ensures that your changes are preserved for future reference.",
+          "Read Notes: Texitor provides a clean and clutter-free interface for reading your notes. Whether you're revisiting old ideas or reviewing important information, Texitor offers a seamless reading experience, allowing you to focus on the content that matters most.",
+          "Persistent Storage: Texitor takes advantage of the IndexedDB API, a powerful browser-based database, to store your notes locally on your device. While Texitor ensures that your notes are accessible across browser sessions, please note that they may not be available when offline."
+        ],
+        "why": [
+          "User-Friendly Interface: Texitor features an intuitive and easy-to-use interface, making it suitable for users of all skill levels. Whether you're a student, professional, or creative thinker, Texitor adapts to your needs, providing a hassle-free note-taking experience.",
+          "Privacy and Security: Your privacy and security are our top priorities. Texitor stores your notes locally on your device, ensuring that your sensitive information remains private and secure. With Texitor, you can take notes with confidence, knowing that your data is protected.",
+          "Seamless Integration: Texitor seamlessly integrates into your browser, allowing you to access your notes from anywhere, at any time. Whether you're using Texitor on your desktop, laptop, or mobile device, your notes are always within reach, enabling you to stay organized and productive on the go."
+        ],
+        "imagesDirectory": "/static/projects/texitor"
+      },           
+      {
+        "type": "project",
+        "name": "Project Name 2",
+        "icon": " background: transparent url(/static/texitor/texitor-logo.png) 0px 0px / 90% 90% no-repeat ",
+        "description": "Description of the project.",
+        "technologies": ["Technology 1", "Technology 2"],
+        "role": "Your role in the project",
+        "responsibilities": ["Responsibility 1", "Responsibility 2"],
+        "achievements": ["Achievement 1", "Achievement 2"],
+        "github": "https://github.com/yourusername/project2",
+        "demo": "https://catchme-27de8.web.app/",
+        "category": "Web Development",
+        "year": 2024,
+        "team": "Sunil",
+        "pages": "Photo Gallery",
+        "view_site": "https://catchme-27de8.web.app/",
+        "npm": "N/A",
+        "key_features": [
+          "Create Notes: Texitor empowers you to quickly jot down your thoughts, ideas, or important information with ease. With just a few clicks, you can create new notes and start capturing your thoughts in real-time.",
+          "Save and Update: Say goodbye to the fear of losing your notes. Texitor leverages the power of IndexedDB to automatically save your notes as you type. You can update your notes effortlessly, and Texitor ensures that your changes are preserved for future reference.",
+          "Read Notes: Texitor provides a clean and clutter-free interface for reading your notes. Whether you're revisiting old ideas or reviewing important information, Texitor offers a seamless reading experience, allowing you to focus on the content that matters most.",
+          "Persistent Storage: Texitor takes advantage of the IndexedDB API, a powerful browser-based database, to store your notes locally on your device. While Texitor ensures that your notes are accessible across browser sessions, please note that they may not be available when offline."
+        ],
+        "why": [
+          "User-Friendly Interface: Texitor features an intuitive and easy-to-use interface, making it suitable for users of all skill levels. Whether you're a student, professional, or creative thinker, Texitor adapts to your needs, providing a hassle-free note-taking experience.",
+          "Privacy and Security: Your privacy and security are our top priorities. Texitor stores your notes locally on your device, ensuring that your sensitive information remains private and secure. With Texitor, you can take notes with confidence, knowing that your data is protected.",
+          "Seamless Integration: Texitor seamlessly integrates into your browser, allowing you to access your notes from anywhere, at any time. Whether you're using Texitor on your desktop, laptop, or mobile device, your notes are always within reach, enabling you to stay organized and productive on the go."
+        ]
+      }
+    ],
+    "contacts": [
+      {
+        "title": "Gmail",
+        "userid": "sunilkumarsk20198@gmail.com",
+        "url": "mailto:sunilkumarsk20198@gmail.com",
+        "icon": " background: transparent url(/static/contact/gmail-logo.svg) 7px 5px / 85% 85% no-repeat ",
+        "starsCount": "5", 
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -9px no-repeat "
+      },
+      {
+        "title": "LinkedIn",
+        "userid": "sunil-sde",
+        "url": "https://www.linkedin.com/in/sunil-sde",
+        "icon": " background: transparent url(/static/contact/linked-logo.svg) 0px 0px / 100% 100% no-repeat ",
+        "starsCount": "4.5", 
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -24px no-repeat "
+      },
+      {
+        "title": "GitHub",
+        "userid": "sunil-sde",
+        "url": "https://github.com/sunil-sde",
+        "icon": " background: transparent url(/static/contact/github-logo.svg) 3px 3px / 94% 94% no-repeat ",
+        "starsCount": "3.5", 
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -54px no-repeat "
+      },
+      {
+        "title": "Stack Overflow",
+        "userid": "16393633",
+        "url": "https://stackoverflow.com/users/16393633/sunil",
+        "icon": " background: transparent url(/static/contact/stackoverflow-logo.svg) -0px 2px / 96% 96% no-repeat ",
+        "starsCount": "2", 
+        "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -104px no-repeat "
+      }
+    ]
+  }
+  

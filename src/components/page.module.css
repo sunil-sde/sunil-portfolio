@@ -1,0 +1,8 @@
+.mycss {
+    border-radius: 10px !important;
+    height: 3px;
+    width: 3px;
+    margin-right: 5% !important;
+    margin-bottom: 5% !important;
+    border: 1px solid gray
+}

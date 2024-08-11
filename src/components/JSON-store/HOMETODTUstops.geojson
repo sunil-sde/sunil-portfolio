@@ -1,0 +1,155 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "01",
+          "name": "Home",
+          "category": "addresses"
+        },
+        "geometry": {
+          "coordinates": [
+            77.0657735197421,
+            28.70336065201292
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "02",
+          "name": "HTML",
+          "category": "skills"  
+        },
+        "geometry": {
+          "coordinates": [
+            77.07037024632922,
+            28.70639009114909
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "03",
+          "name": "CSS",
+          "category" : "skills" 
+        },
+        "geometry": {
+          "coordinates": [
+            77.07505703611662,
+            28.70304067925875
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "04",
+          "name": "JavaScript",
+          "category" : "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.08583285192344,
+            28.700283063852936
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "05",
+          "name": "Tailwind CSS",
+          "category": "skills"
+        },
+        "geometry": {
+          "coordinates": [
+            77.09671427903373,
+            28.698829741451306
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "06",
+          "name": "React Game: Catch the Moving Object",
+          "category": "projects"
+        },
+        "geometry": {
+          "coordinates": [
+            77.10778183426993,
+            28.720129242339084
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "07",
+          "name": "C/C++",
+          "category": "skills" 
+        },
+        "geometry": {
+          "coordinates": [
+            77.11860785274507,
+            28.73184897425604
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "08",
+          "name": "Python",
+          "category": "skills" 
+        },
+        "geometry": {
+          "coordinates": [
+            77.11418100225194,
+            28.7350715501384
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "09",
+          "name": "Research Internship on Secure and Energy Efficient IoT Devices",
+          "category": "experience" 
+        },
+        "geometry": {
+          "coordinates": [
+            77.121531199745,
+            28.743566933681876
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "10",
+          "name": "DTU",
+          "category": "education"
+        },
+        "geometry": {
+          "coordinates": [
+            77.11702385963827,
+            28.750051079536405
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }

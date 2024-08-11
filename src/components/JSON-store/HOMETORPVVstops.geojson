@@ -1,0 +1,35 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "01",
+          "name": "Home",
+          "category": "addresses"
+        },
+        "geometry": {
+          "coordinates": [
+            77.06577110157383,
+            28.70336156028705
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "01",
+          "name": "RPVV",
+          "category": "education"
+        },
+        "geometry": {
+          "coordinates": [
+            77.11200274973169,
+            28.732401276264653
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }
