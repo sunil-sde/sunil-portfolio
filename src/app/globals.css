@@ -354,7 +354,7 @@
 }
 
 .map.zoom-in {
-  background: transparent url(/static/Others/map/plus-minus-sprite.png) 0px 0px no-repeat;
+  background: transparent url(/static/others/map/plus-minus-sprite.png) 0px 0px no-repeat;
   background-size: 120px 30px;
   display: block;
   height: 15px;
@@ -364,7 +364,7 @@
   width: 15px;
 }
 .map.zoom-in:hover {
-  background: transparent url(/static/Others/map/plus-minus-sprite.png) -75px 0px no-repeat;
+  background: transparent url(/static/others/map/plus-minus-sprite.png) -75px 0px no-repeat;
   background-size: 120px 30px;
   display: block;
   height: 15px;
@@ -374,7 +374,7 @@
   width: 15px;
 }
 .map.zoom-out {
-  background: transparent url(/static/Others/map/plus-minus-sprite.png) 0px -15px no-repeat; 
+  background: transparent url(/static/others/map/plus-minus-sprite.png) 0px -15px no-repeat; 
   background-size: 120px 30px;
   display: block;
   left: 7px;
@@ -382,7 +382,7 @@
   bottom: 7px;
 }
 .map.zoom-out:hover {
-  background: transparent url(/static/Others/map/plus-minus-sprite.png) -75px -15px no-repeat; 
+  background: transparent url(/static/others/map/plus-minus-sprite.png) -75px -15px no-repeat; 
   background-size: 120px 30px;
   display: block;
   left: 7px;
@@ -407,14 +407,14 @@
   border-radius: 8px;
 }
 .mylocation-icon {
-  background: transparent url(/static/Others/map/location-sprite.png) 0px 0px no-repeat;  
+  background: transparent url(/static/others/map/location-sprite.png) 0px 0px no-repeat;  
   background-size: 180px 18px;
   width: 18px;
   height: 18px;
   display: block;
 }
 .mylocation-icon:hover {
-  background: transparent url(/static/Others/map/location-sprite.png) -90px 0px no-repeat; 
+  background: transparent url(/static/others/map/location-sprite.png) -90px 0px no-repeat; 
   background-size: 180px 18px;
   width: 18px;
   height: 18px;
