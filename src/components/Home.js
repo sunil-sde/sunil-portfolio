@@ -24,7 +24,7 @@ const Home = () => {
         <TooltipProvider >
             <Tooltip >
                 <TooltipTrigger > 
-                <a href="static/Resume/SDE-Sunil.pdf" download="static/Resume/SDE-Sunil.pdf" 
+                <a href="static/resume/SDE-Sunil.pdf" download="static/resume/SDE-Sunil.pdf" 
                   className="hover:scale-115 hover:filter hover:drop-shadow-lg transition duration-300"  ><i>
                   <img
                     src="/static/others/cv_logo.webp"
@@ -55,7 +55,7 @@ const Home = () => {
             className=" text-blue-500 px-2 hover:scale-105 hover:filter hover:drop-shadow-lg transition duration-300"
           >
             <Image
-                src="/static/Others/other_comp/gmail.png"
+                src="/static/others/other_comp/gmail.png"
                 width={35}
                 height={35}
                 alt="Gmail Logo"
@@ -70,7 +70,7 @@ const Home = () => {
             className=" text-blue-500 pr-2 hover:scale-105 hover:filter hover:drop-shadow-lg transition duration-300 "
           >
               <Image
-                  src="/static/Home/linkedin.png"
+                  src="/static/home/linkedin.png"
                   width={35}
                   height={35}
                   alt="LinkedIn Logo"

@@ -42,7 +42,7 @@ function LeftPane({componentProps}) {
             <Tooltip >
                 <TooltipTrigger > 
                   <Image
-                    src="/static/Others/other_comp/arrow_left_2x.png"
+                    src="/static/others/other_comp/arrow_left_2x.png"
                     width={500}
                     height={500}
                     alt="Picture of the author"

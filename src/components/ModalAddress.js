@@ -42,7 +42,7 @@ function ModalAddress({modalData, closeModal, setCarouselHere, style}) {
             <div className='flex flex-col space-y-2' >
               <div className='flex content-baseline'> 
                 <img
-                  src="/static/Others/map/place_blue_icon.png"
+                  src="/static/others/map/place_blue_icon.png"
                   alt="Place blue icon"
                   style={{  width: '30px', height: '30px', padding: '3px'}}
                 />
@@ -51,7 +51,7 @@ function ModalAddress({modalData, closeModal, setCarouselHere, style}) {
               
               <div className='flex content-baseline'> 
                 <img
-                  src="/static/Addresses/Home/residential.svg"
+                  src="/static/addresses/home/residential.svg"
                   alt="landmark icon"
                   style={{  width: '30px', height: '30px', padding: '3px'}}
                 />
@@ -60,7 +60,7 @@ function ModalAddress({modalData, closeModal, setCarouselHere, style}) {
               
               <div className='flex content-baseline'> 
                 <img
-                  src="/static/Addresses/Home/email.svg"
+                  src="/static/addresses/home/email.svg"
                   alt="landmark icon"
                   style={{  width: '30px', height: '30px', padding: '3px'}}
                 />

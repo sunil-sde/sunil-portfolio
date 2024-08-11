@@ -102,7 +102,7 @@ function ModalProject({modalData, closeModal, setCarouselHere, style}) {
             <p className='text-xs' >{modalData.responsibilities.map((item, index)=>
               <p className='mb-2 flex flex-row' key={index}> 
                 <img
-                  src="/static/Skills/green-circle-tick-bullet.png"
+                  src="/static/skills/green-circle-tick-bullet.png"
                   alt="Place blue icon"
                   style={{  width: '20px', height: '20px', padding: '3px', marginRight: '8px'}}
                 />
@@ -114,7 +114,7 @@ function ModalProject({modalData, closeModal, setCarouselHere, style}) {
             <p className='text-xs' >{modalData.achievements.map((item, index)=>
               <p className='mb-2 flex flex-row' key={index}> 
                 <img
-                  src="/static/Skills/green-circle-tick-bullet.png"
+                  src="/static/skills/green-circle-tick-bullet.png"
                   alt="Place blue icon"
                   style={{  width: '20px', height: '20px', padding: '3px', marginRight: '8px'}}
                 />
@@ -127,7 +127,7 @@ function ModalProject({modalData, closeModal, setCarouselHere, style}) {
             <p className='text-xs' >{modalData.key_features.map((item, index)=>
               <p className='mb-2 flex flex-row' key={index}> 
                 <img
-                  src="/static/Skills/green-circle-tick-bullet.png"
+                  src="/static/skills/green-circle-tick-bullet.png"
                   alt="Place blue icon"
                   style={{  width: '20px', height: '20px', padding: '3px', marginRight: '8px'}}
                 />
@@ -140,7 +140,7 @@ function ModalProject({modalData, closeModal, setCarouselHere, style}) {
             <p className='text-xs' >{modalData.why.map((item, index)=>
             <p className='mb-2 flex flex-row' key={index}> 
               <img
-                src="/static/Skills/green-circle-tick-bullet.png"
+                src="/static/skills/green-circle-tick-bullet.png"
                 alt="Place blue icon"
                 style={{  width: '20px', height: '20px', padding: '3px', marginRight: '8px'}}
               />

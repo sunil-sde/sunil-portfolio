@@ -196,7 +196,7 @@ function SearchBar({componentProps}) {
     <>
     <div className='search-bar' style={{ top: '-83px', left: componentProps.toggleLeft && !componentProps.toggleRouteModal? '-100%': '1%',  width: '403px'}}>
         <Image
-            src="/static/Others/map/locationIcon.svg"
+            src="/static/others/map/locationIcon.svg"
             width={22}
             height={22}
             alt="Sunil"
@@ -249,7 +249,7 @@ function SearchBar({componentProps}) {
                     {
                     searchString===''?
                     <Image
-                    src="/static/Others/map/directions.svg"
+                    src="/static/others/map/directions.svg"
                     width={22}
                     height={22}
                     alt="Sunil"

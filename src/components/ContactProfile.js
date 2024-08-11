@@ -24,7 +24,7 @@ function ContactProfile({closeContactsPopup}) {
           <div className='contact-modal-body'>
           <div className='flex flex-col justify-items-center items-center gap-y-8 h-full'>
             <Image
-                src="/static/Others/other_comp/sunilpic.jpeg"
+                src="/static/others/other_comp/sunilpic.jpeg"
                 width={95}
                 height={50}
                 alt="Sunil"
@@ -43,7 +43,7 @@ function ContactProfile({closeContactsPopup}) {
                     // className=" text-blue-500 px-2 hover:scale-105 hover:filter hover:drop-shadow-lg transition duration-300"
                   >
                     <Image
-                        src="/static/Others/other_comp/gmail.png"
+                        src="/static/others/other_comp/gmail.png"
                         width={35}
                         height={35}
                         alt="Gmail Logo"
@@ -61,7 +61,7 @@ function ContactProfile({closeContactsPopup}) {
                     // className=" text-blue-500 pr-2 hover:scale-105 hover:filter hover:drop-shadow-lg transition duration-300 "
                   >
                       <Image
-                          src="/static/Home/linkedin.png"
+                          src="/static/home/linkedin.png"
                           width={35}
                           height={35}
                           alt="LinkedIn Logo"

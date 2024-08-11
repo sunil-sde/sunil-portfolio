@@ -7,7 +7,7 @@ const AboutMe = () => {
     <section className="bg-gray-100 p-8">
       <div className="max-w-2xl mx-auto pl-14 pb-3">
         <Image
-            src="/static/Others/other_comp/sunilpic.jpeg"
+            src="/static/others/other_comp/sunilpic.jpeg"
             width={220}
             height={50}
             alt="Sunil"
@@ -68,7 +68,7 @@ const AboutMe = () => {
         </div>
         <p className="text-lg">
             You can find more information about my biography, experience, skills, education, and other aspects in the attached PDF below.:
-            <a href="static/Resume/SDE-Sunil.pdf" download="static/Resume/SDE-Sunil.pdf" 
+            <a href="static/resume/SDE-Sunil.pdf" download="static/resume/SDE-Sunil.pdf" 
             style={{color:"#0f5bc5"}}
             ><i>static/Resume/SDE-Sunil.pdf</i></a>
         </p>

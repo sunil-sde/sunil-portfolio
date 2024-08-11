@@ -84,7 +84,7 @@ function PersonalAssistant() {
         <Image
           id='assistant-for-sunil-icon'
           className={`pointer-events-none ${isScaled ? 'scaled' : ''} `}
-          src="/static/Others/chatbot/assistant-bot-icon.png"
+          src="/static/others/chatbot/assistant-bot-icon.png"
           width={80}
           height={80}
           alt="Sunil"

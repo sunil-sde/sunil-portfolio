@@ -44,7 +44,7 @@ function ModalEducation({modalData, closeModal, setCarouselHere, style}) {
 
             <div className='flex content-baseline'> 
               <img
-                src="/static/Others/map/place_blue_icon.png"
+                src="/static/others/map/place_blue_icon.png"
                 alt="Place blue icon"
                 style={{  width: '30px', height: '30px', padding: '3px'}}
               />

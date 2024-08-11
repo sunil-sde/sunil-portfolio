@@ -15,7 +15,7 @@ function SkillsMenu({componentProps}) {
         <button id='experience-page' className="button button1" onClick={(e)=>flipToggleMode(e)} >Experience</button>
         <button id='education-page' className="button button1" onClick={(e)=>flipToggleMode(e)} >Education</button>
         <button id='download-resume' className="button button1"  onClick={downloadResume}>
-          <a href="static/Resume/SDE-Sunil.pdf" download="static/Resume/SDE-Sunil.pdf">Resume</a>
+          <a href="static/resume/SDE-Sunil.pdf" download="static/resume/SDE-Sunil.pdf">Resume</a>
         </button>
         <button id='contact-page' className="button button1" onClick={(e)=>flipToggleMode(e)} >Contact</button>
     </div>

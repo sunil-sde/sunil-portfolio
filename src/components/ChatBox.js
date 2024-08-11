@@ -124,7 +124,7 @@ function ChatBox({closeChatBox, toggleChatBox}) {
               }} > 
                   <div className='w-5 h-5 bg-slate-300 rounded-xl flex justify-center leading-5 ' style={{fontSize: '9px'}}>
                   <Image
-                    src="/static/Others/other_comp/sunilpic.jpeg"
+                    src="/static/others/other_comp/sunilpic.jpeg"
                     width={20}
                     height={20}
                     alt="Sunil"
@@ -184,7 +184,7 @@ function ChatBox({closeChatBox, toggleChatBox}) {
           <Image
             id='sent-btn'
             className={` hover:cursor-pointer hover:scale-110`}
-            src="/static/Others/chatbot/send-btn-icon.svg"
+            src="/static/others/chatbot/send-btn-icon.svg"
             width={30}
             height={5}
             alt="Send Button"
