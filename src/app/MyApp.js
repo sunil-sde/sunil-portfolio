@@ -367,7 +367,7 @@ const handleShowMyLocation = ()=>{
         <MyProfile />
         <SearchBar componentProps={{toggleLeft, myToggleDrawer, getMoreDetails, toggleRouteModal, updateToggleRouteModal}} />
         <SkillsMenu componentProps={{toggleLeft, searchBarLeft, flipToggleMode, toggleRouteModal}} />
-        <TileLayers componentProps={{toggleLeft, toggleRouteModal}} />
+        {/* <TileLayers componentProps={{toggleLeft, toggleRouteModal}} /> */}
         <div className='map-bottom-right' style={{display: 'flex', flexDirection: 'column'}} data-intro='Hello step one!'>
           <div className='vertical-pane'>
             <div className='mylocation' >
