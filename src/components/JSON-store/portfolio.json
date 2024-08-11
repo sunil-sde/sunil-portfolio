@@ -1018,8 +1018,8 @@
       },
       {
         "title": "Stack Overflow",
-        "userid": "16393633",
-        "url": "https://stackoverflow.com/users/16393633/sunil",
+        "userid": "sunil-sde",
+        "url": "https://stackoverflow.com/users/16393633/sunil-sde",
         "icon": " background: transparent url(/static/contact/stackoverflow-logo.svg) -0px 2px / 96% 96% no-repeat ",
         "starsCount": "2", 
         "proficiencyLevel": " background: transparent url(/static/others/other_comp/star-rating-sprite.png) -21px -104px no-repeat "
