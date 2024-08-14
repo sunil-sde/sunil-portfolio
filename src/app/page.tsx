@@ -37,7 +37,7 @@ export default function Home() {
  
   return (
     <AppStateProvider > 
-    <main className='app ' style={{height: '100vh', width: '100%' }} > 
+    <main className='app' style={{height: '100vh', width: '100%' }} > 
       {<MyApp />}
     </main>
     </AppStateProvider>
