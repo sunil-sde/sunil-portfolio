@@ -4,11 +4,11 @@ import { Inter, Roboto } from 'next/font/google'
 import '../../global.css'
 import './globals.css'
 
-// const inter = Inter({ subsets: ['latin'] })
-const roboto = Roboto({ 
-  subsets: ['latin'],
-  weight: '400'
-})
+const inter = Inter({ subsets: ['latin'] })
+// const roboto = Roboto({ 
+//   subsets: ['latin'],
+//   weight: '400'
+// })
 import Favicon from './favicon.png'; // https://github.com/vercel/next.js/discussions/50704
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" href="/favicon_io/favicon-16x16.png"  />
       </head>
-      <body className={`${roboto.className} overflow-hidden`} >{children}</body>
+      <body className={`${inter.className} overflow-hidden`} >{children}</body>
     </html>
   )
 }

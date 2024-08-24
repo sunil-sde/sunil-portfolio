@@ -24,14 +24,14 @@ const Home = () => {
         <TooltipProvider >
             <Tooltip >
                 <TooltipTrigger > 
-                <a href="static/resume/SDE-Sunil.pdf" download="static/resume/SDE-Sunil.pdf" 
-                  className="hover:scale-115 hover:filter hover:drop-shadow-lg transition duration-300"  ><i>
+                <a href="static/resume/Sunil-SDE.pdf" download="Sunil-SDE.pdf" 
+                  className="hover:scale-115 hover:filter hover:drop-shadow-lg transition duration-300 text-sm"  ><i>
                   <img
                     src="/static/others/cv_logo.webp"
                     alt="cv_logo"
                     style={{  width: '45px', height: '45px', margin: 'auto', title:'Resume'}}
                   />
-                </i></a>
+                </i> Resume</a>
                 </TooltipTrigger>
                 <TooltipContent side="right" >
                 <div>Resume</div>

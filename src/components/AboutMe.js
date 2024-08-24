@@ -68,9 +68,9 @@ const AboutMe = () => {
         </div>
         <p className="text-lg">
             You can find more information about my biography, experience, skills, education, and other aspects in the attached PDF below.:
-            <a href="static/resume/SDE-Sunil.pdf" download="static/resume/SDE-Sunil.pdf" 
+            <a href="static/resume/Sunil-SDE.pdf" download="Sunil-SDE.pdf" 
             style={{color:"#0f5bc5"}}
-            ><i>static/Resume/SDE-Sunil.pdf</i></a>
+            ><i>Sunil-SDE.pdf</i></a>
         </p>
         <p className="mt-4">Thank you for visiting!</p>
       </div>
